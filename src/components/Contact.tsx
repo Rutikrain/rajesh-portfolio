@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Rutik Rain</span>
+              Designed and Developed <br /> by <span>Rutik Raien</span>
             </h2>
             <h5>
               <MdCopyright /> 2025
