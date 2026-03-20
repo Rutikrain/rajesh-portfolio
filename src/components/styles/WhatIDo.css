@@ -234,10 +234,26 @@
 .what-tags {
   font-size: 13px;
   font-weight: 400;
-  padding: 2px 7px;
-  background-color: rgba(255, 255, 255, 0.15);
-  border: 1px solid #ffffff50;
+  padding: 4px 12px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ffffff30;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+.what-tags::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: var(--accentColor);
+  border-radius: 50%;
+  display: inline-block;
+}
+.what-tags:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--accentColor);
 }
 @media only screen and (max-width: 1600px) {
   .what-box h2 {
