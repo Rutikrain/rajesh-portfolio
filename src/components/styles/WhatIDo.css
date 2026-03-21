@@ -307,11 +307,12 @@
   }
   .what-box-in {
     height: 500px;
-    margin-left: -50px;
+    margin-left: 0px;
+    width: 100%;
   }
   .what-content {
-    padding: 50px;
-    width: 500px;
+    padding: 30px;
+    width: 100%;
   }
   .what-content p {
     font-size: 14px;
@@ -345,8 +346,7 @@
     height: 500px;
   }
   .what-box {
-    width: 500px;
-    max-width: calc(100% - 50px);
+    width: 100%;
     margin: auto;
   }
   .what-content {

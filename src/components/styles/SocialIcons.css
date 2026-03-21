@@ -59,8 +59,20 @@
   color: #5e5e5e;
   cursor: pointer;
   transition: 0.5s;
-  transform-origin: left bottom;
-  transform: translateX(100%) rotateZ(-90deg);
+  transform-origin: center;
+  transform: translateY(0%) rotateZ(0deg);
+  right: 10px;
+  bottom: 20px;
+  color: var(--accentColor);
+}
+@media only screen and (min-width: 500px) {
+  .resume-button {
+    transform-origin: left bottom;
+    transform: translateX(100%) rotateZ(-90deg);
+    right: 0px;
+    bottom: 40px;
+    color: #5e5e5e;
+  }
 }
 .resume-button:hover {
   color: #fff;
@@ -72,15 +84,7 @@ div.resume-button span {
   display: flex;
   align-items: center;
 }
-.check-line {
-  position: fixed;
-  top: 655px;
-  left: 0;
-  height: 1px;
-  background-color: #ffffff;
-  width: 100%;
-  z-index: 99999;
-}
+/* .check-line removed */
 @media only screen and (min-width: 900px) {
   .social-icons {
     display: flex;
