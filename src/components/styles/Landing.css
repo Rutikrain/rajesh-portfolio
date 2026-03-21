@@ -265,6 +265,22 @@ h2.landing-info-h2 {
   left: 0;
 }
 
+@media screen and (max-width: 900px) {
+  .landing-info h2 {
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-left: 0;
+    justify-content: center;
+    height: 40px;
+  }
+  h2.landing-info-h2 {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
 @media screen and (min-width: 500px) {
   .landing-circle2 {
     display: block;
