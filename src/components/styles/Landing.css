@@ -171,11 +171,9 @@
 .landing-intro {
   position: absolute;
   z-index: 9;
-  top: 15%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  width: 100%;
+  top: 12%;
+  left: 5%;
+  text-align: left;
 }
 
 .landing-intro h2 {
