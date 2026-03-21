@@ -1,5 +1,4 @@
 import { gsap } from "gsap";
-// @ts-ignore
 import { SplitText } from "gsap-trial/SplitText";
 import { smoother } from "../Navbar";
 
